@@ -6,22 +6,31 @@
  */
 
 function averageMark(a, g, p) {
-	
+	let algebra = a;
+	let geography = g;
+	let physics = p;
+	let averageScore = (a + g + p) / 3;
+
     // реализуйте здесь задание №1
     
-	return // ваш ответ;
+	return averageScore; // ваш ответ;
 }
 
 function sayHello(userName) {
+	let myName = userName;
+	let message = `Привет, мир! Меня зовут ${userName}`;
 	
-    // реализуйте здесь задание №2
-    
-	return // ваш ответ;
+	// реализуйте здесь задание №2
+	
+	return message; // ваш ответ;
 }
 
 function calculateFormula() {
-    
+    x = 2;
+	y = 22;
+	z = 0;
+	let result = (x * y) + (5 * z) + x - 1;
 	// реализуйте здесь задание №3
     
-    return // ваш ответ;
+    return result; // ваш ответ;
 }
